@@ -1,0 +1,85 @@
+/* ------  HEADER ---------  */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    background-color: #ccc;
+}
+
+.header-right {
+    background-color: pink;
+}
+/* ------  HEADER ---------  */
+
+/* ------  MAIN ---------  */
+.background-img {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+
+.pages-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.page-list {
+    display: flex;
+    list-style-type: none;
+    background-color: #ccc;
+    justify-content: space-around;
+    padding: 0;
+    width: 80%;
+    padding-top: 1rem;
+}
+
+.page-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.page-item:hover {
+    cursor: pointer;
+}
+
+.page-item:hover .page-item-icon {
+    font-size: 2rem;
+}
+
+.page-item:hover .page-item-title {
+    color: blue;
+}
+
+.page-item-icon-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item-icon {
+    font-size: 1.5rem;
+    transition: font-size 0.3s; /* animation mượt hơn, bữa sau học */
+}
+
+.page-item-title {
+    color: black;
+}
+
+
+
+/* ------  MAIN ---------  */
+
